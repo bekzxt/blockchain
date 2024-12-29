@@ -1,4 +1,4 @@
-# BLOCKCHAIN ASSIGNMENT 1
+![image](https://github.com/user-attachments/assets/472f7b9c-ac30-4668-ba40-3a6c687e009f)# BLOCKCHAIN ASSIGNMENT 1
 
 **SMART CONTRACT**
 The main idea of this project is to create and deploy a smart contract that can:
@@ -14,6 +14,7 @@ The main idea of this project is to create and deploy a smart contract that can:
 
 3. **Interaction Page**  
    - Demonstrates how to interact with the smart contract using web3.js and Metamask.
+     
 
 4. **Examples**  
    - Practical examples of function calls (e.g., checking balance, sending Ether).
@@ -21,3 +22,4 @@ The main idea of this project is to create and deploy a smart contract that can:
 5. **Screenshots & Logs**  
    - Visual and textual logs for easier understanding of the workflow. 
 
+![image](https://github.com/user-attachments/assets/df7eb49f-7cf9-46e3-ba5b-0bd42fd04d5a)
