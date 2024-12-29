@@ -17,7 +17,6 @@
     let contract;
     let account;
 
-    // Connect to MetaMask and setup Web3.js
     async function connectMetaMask() {
         if (typeof window.ethereum !== 'undefined') {
             console.log('MetaMask is installed!');
@@ -96,7 +95,6 @@
         }
     }
 
-    // Trigger the connect function when "Connect MetaMask" button is clicked
     document.getElementById('connectButton').addEventListener('click', connectMetaMask);
 
 </script>
