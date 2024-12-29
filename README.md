@@ -1,5 +1,5 @@
 # BLOCKCHAIN ASSIGNMENT 1
-Ermukhanov Daulet, Amirov Bekzat, Zhumakhanova Asselya
+Team members: Ermukhanov Daulet, Amirov Bekzat, Zhumakhanova Asselya
 
 **SMART CONTRACT**
 The main idea of this project is to create and deploy a smart contract that can:
@@ -15,7 +15,6 @@ The main idea of this project is to create and deploy a smart contract that can:
 
 3. **Interaction Page**  
    - Demonstrates how to interact with the smart contract using web3.js and Metamask.
-     
 
 4. **Examples**  
    - Practical examples of function calls (e.g., checking balance, sending Ether).
