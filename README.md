@@ -1,4 +1,5 @@
 # BLOCKCHAIN ASSIGNMENT 1
+Ermukhanov Daulet, Amirov Bekzat, Zhumakhanova Asselya
 
 **SMART CONTRACT**
 The main idea of this project is to create and deploy a smart contract that can:
