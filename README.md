@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/472f7b9c-ac30-4668-ba40-3a6c687e009f)# BLOCKCHAIN ASSIGNMENT 1
+# BLOCKCHAIN ASSIGNMENT 1
 
 **SMART CONTRACT**
 The main idea of this project is to create and deploy a smart contract that can:
