@@ -21,18 +21,15 @@
         if (typeof window.ethereum !== 'undefined') {
             console.log('MetaMask is installed!');
 
-            // Create Web3 instance using MetaMask's provider
             web3 = new Web3(window.ethereum);
 
             try {
-                // Request user to connect MetaMask account
                 await window.ethereum.request({ method: 'eth_requestAccounts' });
                 const accounts = await web3.eth.getAccounts();
                 account = accounts[0]; // Get the first account
 
                 console.log('Connected Account:', account);
 
-                // Contract ABI (generated from Remix)
                 const contractABI = [
                     { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" },
                     { "stateMutability": "payable", "type": "receive" },
@@ -42,13 +39,11 @@
                     { "inputs": [], "name": "owner", "outputs": [{ "internalType": "address payable", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" }
                 ];
 
-                // Contract address (from Remix or deployment)
                 const contractAddress = '0xeE80Ec25096aaf06f91eA537ddd1EeBdbf750E5a';
 
-                // Create contract instance
                 contract = new web3.eth.Contract(contractABI, contractAddress);
 
-                // Attach event listeners to buttons
+
                 document.getElementById('getBalanceButton').addEventListener('click', getContractBalance);
                 document.getElementById('withdrawButton').addEventListener('click', withdrawFromContract);
 
@@ -62,7 +57,6 @@
         }
     }
 
-    // Get contract balance (convert Wei to Ether)
     async function getContractBalance() {
         try {
             const balanceWei = await contract.methods.getBalance().call();
@@ -75,10 +69,8 @@
         }
     }
 
-    // Withdraw ether from the contract (only owner can withdraw)
     async function withdrawFromContract() {
         try {
-            // Get the contract owner
             const owner = await contract.methods.owner().call();
 
             if (account.toLowerCase() === owner.toLowerCase()) {
